@@ -90,8 +90,11 @@
   - Git: 2.51.2
 - Added `README.md` summarizing Studio City triple auction v10 rules.
 - Added `VISION.md` describing the PWA product direction and near-term milestones.
+- Created private GitHub repository: `https://github.com/s2alexan/studiocity`.
+- Pushed the initial `main` branch to GitHub.
 
 ### Lessons Learned
 
 - Starting with a project log before installing tools gives us a durable transcript even if environment setup needs multiple shell sessions.
 - In Codex, `sudo` prompts inside hidden tool sessions are not visible to the user. For password-requiring macOS setup, create and open a visible `.command` file in Terminal.
+- GitHub CLI browser authentication should also run in a visible Terminal window when the hidden Codex tool session cannot render or respond cleanly to interactive prompts.
